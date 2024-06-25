@@ -1,0 +1,74 @@
+[
+    {
+        "id": "d30e31303173a5724c8a8c118c4887e4",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-25T16:00:00Z",
+        "home_team": "Netherlands",
+        "away_team": "Austria"
+    },
+    {
+        "id": "eecc1ab552df4c21c424e8b3bc0a9423",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-25T16:00:00Z",
+        "home_team": "France",
+        "away_team": "Poland"
+    },
+    {
+        "id": "375f8cbf7c7b265efc53e65da77d0c5f",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-25T19:00:00Z",
+        "home_team": "Denmark",
+        "away_team": "Serbia"
+    },
+    {
+        "id": "25bc3520f4846a775eb0d70c48f61e2a",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-25T19:00:00Z",
+        "home_team": "England",
+        "away_team": "Slovenia"
+    },
+    {
+        "id": "39b593dd46c731b420f5f0d7dcc0c01e",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-26T16:00:00Z",
+        "home_team": "Ukraine",
+        "away_team": "Belgium"
+    },
+    {
+        "id": "a3e01effd1edac12717fb1bb2ab3dbf4",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-26T16:00:00Z",
+        "home_team": "Slovakia",
+        "away_team": "Romania"
+    },
+    {
+        "id": "58122e7a3ddcbdab0eb8caf0d86a135e",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-26T19:00:00Z",
+        "home_team": "Czech Republic",
+        "away_team": "Turkey"
+    },
+    {
+        "id": "bda40e8c885c8037501f7d95ecdbd99d",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-26T19:00:00Z",
+        "home_team": "Georgia",
+        "away_team": "Portugal"
+    },
+    {
+        "id": "7da788bf0563a8cb81a7d980d08c5e18",
+        "sport_key": "soccer_uefa_european_championship",
+        "sport_title": "UEFA Euro 2024",
+        "commence_time": "2024-06-29T16:00:00Z",
+        "home_team": "Switzerland",
+        "away_team": "Italy"
+    }
+]
