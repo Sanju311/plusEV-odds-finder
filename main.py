@@ -1,91 +1,104 @@
-from constants import endpoints
-from constants import sports
-from constants import regions
-from constants import getEventsAPI
+from constants import sports, regions, books, markets 
+from constants import getEventsAPI, getEventOddsAPI
 
 import requests
-import json
 import redis
+import time
 
 
 
 def main(): 
-    while True:
-        findBets()
+    findBets()
 
 
 def findBets():
     
+    #search through all sports  before waiting for a few hours for potential odds changes
     for sport in sports:
         
         try:
 
             events = requests.get(getEventsAPI(sport))
-            eventsJSON = events.json()
+            events_JSON = events.json()
 
-            for event in eventsJSON:
+            for event in events_JSON:
 
-                currEvent = []
+                currEvent = {}
                 currEvent['id'] = event['id']
-                currEvent['title'] = event['sport_title']
-                currEvent['teams'] = event['home_team'] + event['away_team']           
+                currEvent['leauge'] = event['sport_title']
+                currEvent['teams'] = event['home_team'] + event['away_team']    
+                currEvent['start_time'] = event['commence_time']       
 
+                #search for favorable odds for the given event, one event  
                 findOdds(currEvent)    
 
         except requests.exceptions.ConnectionError as e:
-            print("Connection error:" + e)
+            print(e)
 
         except requests.exceptions.RequestException as e:
-            print("Request library error:" + e)   
+            print(e)
 
         except Exception as e:
-            print("General error:" + e)
+            print(e)
 
-
-        time.sleep(10)
-
+    time.sleep(3600*3)
 
 
 def findOdds(event):
-    print(event)
+    
+    try:
+
+        all_odds = requests.get(getEventOddsAPI(event['id']))
+        all_odds = all_odds.json()
+
+        redis_client = redis.Redis(host='localhost', port=6379, db=0)
+
+        for sportsbook in all_odds["bookmakers"]:
+            populateCache(sportsbook, redis_client)
+            findValue(event, redis_client)
+
+
+    except requests.exceptions.ConnectionError as e:
+        print(e)
+
+    except requests.exceptions.RequestException as e:
+        print(e)
+
+    except Exception as e:
+        print(e)
+
+
+
+
+def populateCache(sportsbook, redis_client):
+    
+    sportsbook_name = sportsbook['key']
+
+    for market in sportsbook['markets']:
+        for outcome in market['outcomes']:
+            #sample key value: "fanduelh2hnetherlands","2.74"
+            redis_client.set(sportsbook_name + market['key'] + outcome['name'], outcome['price'])
+
+
+def findValue(event, redis_client):
+    
+
+    #logic to find value 
+    sendMail()
+
+    #clear cache 
+
+
+
+#send mail notification to subscribers 
+def sendMail():
+    
+
+
+
+
 
 
 if __name__ == "__main__":
     main()
 
-
-
-
-
-
-# r = redis.Redis(host="localhost", port=6379)
-# r.set("france","germafsfsfnu")
-
-# print(r.get("france"))
-
-
-# for event in data:
-#     eventID = event['id']
-#     eventTime = event['commence_time']
-#     eventName = event['home_team'] + event['away_team']
-
-    
-# response = requests.get(endpoints['getEvents'])
-
-# if response.status_code == 200:
-#     data = response.json()
-#     file_path = "api_response.json"
-#     with open(file_path,'w') as json_file:
-#         json.dump(data,json_file, indent=4)
-# else:
-#     print("error getting api data")
-
-
-# eventAPI = getEvents('d30e31303173a5724c8a8c118c4887e4')
-# print(eventAPI)
-# response2 = requests.get(eventAPI)
-# data = response2.json()
-
-# file_path = "nether_austria_pinnacle.json"
-# with open(file_path,'w') as json_file:
-#     json.dump(data,json_file, indent=4)

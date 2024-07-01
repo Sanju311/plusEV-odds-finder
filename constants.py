@@ -17,6 +17,8 @@ uk_books = "betway"
 eu_books = "pinnacle"
 all_books = us_books+uk_books+eu_books
 
+books = ["betmgm", "betrivers", "betus", "draftkings", "fanduel", "pointsbet", "betway", "pinnacle"]
+
 regions = "us"
 
 markets = {
@@ -30,22 +32,22 @@ markets = {
 
 main_markets = "h2h,spreads,totals"
 
-endpoints = {
-    "getSports": THE_ODDS_API_BASE+"/v4/sports/?apiKey="+API_KEY,
-    "getEvents": THE_ODDS_API_BASE+ "/v4/sports/"+sports["euro"]+"/events/?apiKey="+API_KEY,
-    "getEventOdds" : THE_ODDS_API_BASE+ "/v4/sports/"+sports["euro"]+"/events/++/odds/?apiKey="+API_KEY+"&regions="+regions["us1"]+ "&markets="+markets["spread"]
-}
+# endpoints = {
+#     "getSports": THE_ODDS_API_BASE+"/v4/sports/?apiKey="+API_KEY,
+#     "getEvents": THE_ODDS_API_BASE+ "/v4/sports/"+sports["euro"]+"/events/?apiKey="+API_KEY,
+#     "getEventOdds" : THE_ODDS_API_BASE+ "/v4/sports/"+sports["euro"]+"/events/++/odds/?apiKey="+API_KEY+"&regions="+regions["us1"]+ "&markets="+markets["spread"]
+# }
 
 #returns the events API
 def getEventsAPI(sport):
-    return THE_ODDS_API_BASE+sport+"/events?apiKey="+API_KEY
+    time_now = datetime.now(timezone.utc)
+    time_plus_week = (time_now + timedelta(days=7)).isoformat()
+    time_plus_week = (time_plus_week[:-13] + "Z")
+    return THE_ODDS_API_BASE+sport+"/events?apiKey="+API_KEY+"&commenceTimeTo="+time_plus_week
 
 def getAnyEventOddsAPI(sport, eventID):
     return THE_ODDS_API_BASE+sport+"/odds/?apiKey="+API_KEY+"&regions="
 
 def getEventOddsAPI(sport, eventID):
-    time_now = datetime.now(timezone.utc)
-    time_plus_week = (time_now + timedelta(days=7)).isoformat()
-    time_plus_week = time_plus_week[:-6] + "Z"
+    return THE_ODDS_API_BASE+sport+"/odds/?apiKey="+API_KEY+"&eventIds="+eventID+"&regions="+regions+"&markets="+main_markets+"&bookmakers="+all_books
 
-    return THE_ODDS_API_BASE+sport+"/odds/?apiKey="+API_KEY+"&eventIds="+eventID+"&regions="+regions+"&markets="+main_markets+"&commenceTimeTo="+time_plus_week+"&bookmakers="+all_books
