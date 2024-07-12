@@ -1,0 +1,187 @@
+[
+    {
+        "id": "19a26926fc229a085ebf7ce1397c2337",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-13T23:30:00Z",
+        "home_team": "FC Cincinnati",
+        "away_team": "Charlotte FC",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-07-11T21:16:51Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-07-11T21:16:51Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte FC",
+                                "price": 5.0
+                            },
+                            {
+                                "name": "FC Cincinnati",
+                                "price": 1.62
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betus",
+                "title": "BetUS",
+                "last_update": "2024-07-11T21:20:16Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-07-11T21:20:16Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte FC",
+                                "price": 4.5
+                            },
+                            {
+                                "name": "FC Cincinnati",
+                                "price": 1.71
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.95
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-07-11T21:19:09Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-07-11T21:19:09Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte FC",
+                                "price": 4.4
+                            },
+                            {
+                                "name": "FC Cincinnati",
+                                "price": 1.69
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betway",
+                "title": "Betway",
+                "last_update": "2024-07-11T21:20:41Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-07-11T21:20:41Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte FC",
+                                "price": 4.5
+                            },
+                            {
+                                "name": "FC Cincinnati",
+                                "price": 1.7
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "pinnacle",
+                "title": "Pinnacle",
+                "last_update": "2024-07-11T21:20:15Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-07-11T21:20:15Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte FC",
+                                "price": 4.63
+                            },
+                            {
+                                "name": "FC Cincinnati",
+                                "price": 1.7
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.96
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-07-11T21:20:39Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-07-11T21:20:39Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte FC",
+                                "price": 4.5
+                            },
+                            {
+                                "name": "FC Cincinnati",
+                                "price": 1.67
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 3.85
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-07-11T21:20:58Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-07-11T21:20:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte FC",
+                                "price": 4.7
+                            },
+                            {
+                                "name": "FC Cincinnati",
+                                "price": 1.66
+                            },
+                            {
+                                "name": "Draw",
+                                "price": 4.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

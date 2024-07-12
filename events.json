@@ -1,0 +1,226 @@
+[
+    {
+        "id": "7bf9a3712d69b88e3317fb4373776919",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-13T23:30:00Z",
+        "home_team": "Montreal Impact",
+        "away_team": "Atlanta United FC"
+    },
+    {
+        "id": "19a26926fc229a085ebf7ce1397c2337",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-13T23:30:00Z",
+        "home_team": "FC Cincinnati",
+        "away_team": "Charlotte FC"
+    },
+    {
+        "id": "556ad1eff4759e1eb213fe55e96d04d9",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-13T23:30:00Z",
+        "home_team": "D.C. United",
+        "away_team": "Nashville SC"
+    },
+    {
+        "id": "e062af9ce8677d75cf343be9ceccd693",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-13T23:30:00Z",
+        "home_team": "New England Revolution",
+        "away_team": "Orlando City SC"
+    },
+    {
+        "id": "0e46365b199fc07a7ad32e592853d898",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-13T23:30:00Z",
+        "home_team": "Toronto FC",
+        "away_team": "Philadelphia Union"
+    },
+    {
+        "id": "929f20bfc98b027fd5bfd4bc5c064d61",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T00:30:00Z",
+        "home_team": "Austin FC",
+        "away_team": "Seattle Sounders FC"
+    },
+    {
+        "id": "f7b1b48596a20709a3e059c3e8e4bb5d",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T00:30:00Z",
+        "home_team": "Chicago Fire",
+        "away_team": "New York City FC"
+    },
+    {
+        "id": "89e12435a93e1745f13e2e2340bf581e",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T00:30:00Z",
+        "home_team": "FC Dallas",
+        "away_team": "LA Galaxy"
+    },
+    {
+        "id": "07dc2638a0ae2d24bfd7357ada8d94d2",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T00:30:00Z",
+        "home_team": "Houston Dynamo",
+        "away_team": "Minnesota United FC"
+    },
+    {
+        "id": "7f8ef0358738e752baab2bf2e5574ab0",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T00:30:00Z",
+        "home_team": "St. Louis City SC",
+        "away_team": "Vancouver Whitecaps FC"
+    },
+    {
+        "id": "2f4146e86f40e62303df40b52ccf6903",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T01:30:00Z",
+        "home_team": "Colorado Rapids",
+        "away_team": "New York Red Bulls"
+    },
+    {
+        "id": "b4a6c87da540f98a83880f55881bd955",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T02:25:00Z",
+        "home_team": "Portland Timbers",
+        "away_team": "Real Salt Lake"
+    },
+    {
+        "id": "37c8ab467aad885ba56827b7ac42cb58",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T02:30:00Z",
+        "home_team": "Los Angeles FC",
+        "away_team": "Columbus Crew SC"
+    },
+    {
+        "id": "aae7b0ed16169cc774d645ae30733a6d",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-14T02:30:00Z",
+        "home_team": "San Jose Earthquakes",
+        "away_team": "Sporting Kansas City"
+    },
+    {
+        "id": "df55628c80ac25e1c68eaa18c49d61aa",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-17T23:30:00Z",
+        "home_team": "Atlanta United FC",
+        "away_team": "New York City FC"
+    },
+    {
+        "id": "90e951d0ccb2d3247979b2b1932b6575",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-17T23:30:00Z",
+        "home_team": "Columbus Crew SC",
+        "away_team": "Charlotte FC"
+    },
+    {
+        "id": "eaea44ec92f0bddd455686f79050224e",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-17T23:30:00Z",
+        "home_team": "FC Cincinnati",
+        "away_team": "Chicago Fire"
+    },
+    {
+        "id": "3a94657dca871552aecd1e42e39fc446",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-17T23:30:00Z",
+        "home_team": "Inter Miami CF",
+        "away_team": "Toronto FC"
+    },
+    {
+        "id": "2dbe3dd6b64b15e325217f49dd25891b",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-17T23:30:00Z",
+        "home_team": "New York Red Bulls",
+        "away_team": "Montreal Impact"
+    },
+    {
+        "id": "01d1f62dd8d8fcc9544fca58a4f703f7",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-17T23:30:00Z",
+        "home_team": "Philadelphia Union",
+        "away_team": "New England Revolution"
+    },
+    {
+        "id": "3acdfe16d9c967d0c31fe4613c5e40bb",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T00:30:00Z",
+        "home_team": "FC Dallas",
+        "away_team": "Austin FC"
+    },
+    {
+        "id": "eb95cebf4b1dc1e7751ae442f3c32307",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T00:30:00Z",
+        "home_team": "Minnesota United FC",
+        "away_team": "D.C. United"
+    },
+    {
+        "id": "0a08f262f884138e734b7e0aaed73de0",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T00:30:00Z",
+        "home_team": "Nashville SC",
+        "away_team": "Orlando City SC"
+    },
+    {
+        "id": "f15fae7c01e128808d80ebcdecd0f9f4",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T02:30:00Z",
+        "home_team": "LA Galaxy",
+        "away_team": "Colorado Rapids"
+    },
+    {
+        "id": "d54747174e5608a3814cb3e0ee845932",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T02:30:00Z",
+        "home_team": "San Jose Earthquakes",
+        "away_team": "Houston Dynamo"
+    },
+    {
+        "id": "fdd4d1c49afcbf02c71da38bc557d3da",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T02:30:00Z",
+        "home_team": "Seattle Sounders FC",
+        "away_team": "St. Louis City SC"
+    },
+    {
+        "id": "a869c9f6cad8e489a43bc1970d1bbfa9",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T02:30:00Z",
+        "home_team": "Vancouver Whitecaps FC",
+        "away_team": "Sporting Kansas City"
+    },
+    {
+        "id": "ea0fb99d7fbcbe85c6e8f7ce9be6b281",
+        "sport_key": "soccer_usa_mls",
+        "sport_title": "MLS",
+        "commence_time": "2024-07-18T02:45:00Z",
+        "home_team": "Los Angeles FC",
+        "away_team": "Real Salt Lake"
+    }
+]

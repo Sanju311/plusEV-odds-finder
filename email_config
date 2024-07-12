@@ -1,0 +1,20 @@
+from simplegmail import Gmail
+
+
+SENDER_EMAIL = "evbetfinder@gmail.com"
+SENDER_PASSWORD = "evbetfinder55"
+RECEIVER_EMAILS = "sanjumoorthy622@gmail.com"
+
+gmail = Gmail()
+
+var = "AFASDFASFASFASF"
+params = {
+    "to": RECEIVER_EMAILS,
+    "sender": SENDER_EMAIL,
+    "subject": "we found a bet",
+    "msg_html": "<h1> this is a sample email" +var +"<h1>",
+    "signature": True
+}
+
+message = gmail.send_message(**params)
+
