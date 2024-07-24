@@ -1,18 +1,18 @@
 from datetime import datetime, timezone, timedelta
 
-
 API_KEY = "63971622c64f6ae72dc229f7eb1fbf76"
 THE_ODDS_API_BASE = "https://api.the-odds-api.com/v4/sports/"
-EV_THRESHOLD = ""
 
 SPORTS = [
-    
-    "soccer_usa_mls"
-    #"soccer_uefa_european_championship"
-    #"americanfootball_nfl",
-    #"basketball_nba",
-    #"soccer_usa_mls"
-    ]
+    "baseball_mlb"
+    # "soccer_usa_mls",
+    # "americanfootball_nfl",
+    # "americanfootball_ncaaf",
+    # "basketball_nba",
+    # "icehockey_nhl",
+    # "basketball_ncaab",
+    # "soccer_epl",
+]
 
 US_BOOKS = "betmgm,betrivers,betus,draftkings,fanduel,pointsbet"
 UK_BOOKS = ",betway"
@@ -21,17 +21,19 @@ ALL_BOOKS = US_BOOKS+UK_BOOKS+EU_BOOKS
 
 BOOKS = ["betmgm", "betrivers", "betus", "draftkings", "fanduel", "pointsbet", "betway", "pinnacle"]
 
-MARKETS = [ "h2h"]
-#MARKETS = [ "h2h","spreads","totals"]
-
 MAIN_MARKETS = "h2h"
 
-OUTCOMES = {
-    
-    'h2h': []
 
+#sample size vs EV curve
+
+EXPERIMENTAL_EV_CURVE = {
+    1 : 1.14,
+    2 : 1.125,
+    3 : 1.10,
+    4 : 1.0875, 
+    5 : 1.083,
+    6 : 1.08
 }
-#potential for more: "team_totals","btts","alternate_spreads"
 
 
 #returns the events API
