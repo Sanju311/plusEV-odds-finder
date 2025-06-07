@@ -18,11 +18,6 @@ Using the **Kelly Criterion**, the engine calculates the optimal stake size and 
 - **Infrastructure:** AWS Lambda (serverless execution), CloudWatch (scheduled trigger), Amazon SES (email delivery)
 - **Odds Source:** External sports betting odds API
 - **Data Handling:** Filters odds by event, market, and bookmaker; compares each to a calculated "true odds" benchmark
-- **Expected Value Calculation:**  
-  \[
-  EV = (P_{\text{true}} \times \text{Odds}) - 1
-  \]  
-  where \(P_{\text{true}}\) is derived from Pinnacle or average market odds
 - **Kelly Criterion Sizing:**  
   Calculates optimal stake as a proportion of bankroll based on the edge and probability
 - **Thresholding:**  
