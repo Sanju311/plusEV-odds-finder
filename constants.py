@@ -1,6 +1,6 @@
 from datetime import datetime, timezone, timedelta
 
-API_KEY = "63971622c64f6ae72dc229f7eb1fbf76"
+# hidden = "63971622c64f6ae72dc229f7eb1fbf76"
 THE_ODDS_API_BASE = "https://api.the-odds-api.com/v4/sports/"
 
 SPORTS = [
